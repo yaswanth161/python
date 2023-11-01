@@ -1,0 +1,6 @@
+paragraph = input("Enter a paragraph: ")
+lines = paragraph.split('\n')
+word_count = sum(len(line.split()) for line in lines)
+line_count = len(lines)
+print("Number of words:", word_count)
+print("Number of lines:", line_count)
